@@ -1,0 +1,13 @@
+拦截器设置:
+
+1.在spring-mvc里配置
+1>设置mvc标签default-servlet-handler属性-->静态资源放行
+2>设置mvc标签interceptors属性下的<mvc:interceptor>标签
+    1)<mvc:mapping path="/**"/>-->拦截所有请求
+    2)<mvc:exclude-mapping path="(放行资源路径或接口)"/>-->放行资源
+    3)<bean class="(要设定拦截规则的指定类路径)"></bean>-->拦截规则
+
+2.设定拦截规则的指定类设置
+1>该类继承 HandlerInterceptorAdapter
+2>重写preHandle方法
+3>设置布尔返回值规则(true则放行,false则拦截)

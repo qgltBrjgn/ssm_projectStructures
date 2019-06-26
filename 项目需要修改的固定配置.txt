@@ -1,0 +1,13 @@
+项目需要修改的固定配置:
+
+1.generatorConfig.xml(代码自动生成)
+1>mysql连接驱动jar包本地路径修改
+2>mysql连接密码名称修改
+3>数据库地址和数据库名称
+4>本地java代码生成路径
+
+2.jdbc.properties
+1>jdbc.url=jdbc:mysql://(数据库地址)/(数据库名)?useUnicode=true&characterEncoding=utf8
+2>jdbc.username=(mysql连接名)
+3>jdbc.password=(masql连接密码)
+

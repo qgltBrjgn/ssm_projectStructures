@@ -1,0 +1,27 @@
+servlet-context.xml 配置项:
+
+1.<beans></beans>配置
+1>xmlns-->别名标签
+2>xmlns:xsi
+3>xmlns:mvc
+4>xmlns:context
+5>xmlns:aop
+6>xsi:schemaLocation
+
+2.扫描@Controller控制器
+
+3.配置切面编程配置
+
+4.配请求controller时返回视图页面的路径和编码
+
+5.配置要展现的视图文件
+
+6.配置mvc注解驱动并添加json支持
+
+7.静态资源文件的处理放行
+
+8.配置拦截器
+1>该放行页面
+2>该放行的资源
+3>该拦截的所有请求
+4>该放行的指定类

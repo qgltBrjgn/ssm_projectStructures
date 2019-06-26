@@ -1,0 +1,25 @@
+spring-mybatis.xml配置项:
+
+1.<beans></beans>配置
+1>xmlns-->别名标签
+2>xmlns:xsi
+3>xmlns:tx
+4>xmlns:context
+5>xmlns:aop
+6>xsi:schemaLocation
+
+2.配置扫描注解
+
+3.jdbc数据库连接配置文件引入
+
+4.配置c3p0数据源
+
+5.配置事物管理器
+
+6.设置事物增强
+
+7.aop切面配置
+
+8.配置 sqlSessionFactory
+
+9.mapper和dao映射接口类 配置扫描器
